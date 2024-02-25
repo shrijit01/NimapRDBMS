@@ -1,7 +1,9 @@
-Project Overview:
+#Project Overview
+
 The project is a simple web application for managing categories and products. It allows users to perform CRUD (Create, Read, Update, Delete) operations on categories and products.
 
-Project Structure:
+##Project Structure
+
 
 project/
 │
