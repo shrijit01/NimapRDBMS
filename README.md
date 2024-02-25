@@ -54,6 +54,88 @@ Configuration file (db.js): Database configuration details.
 
 **API Endpoints:**
 
+Categories:
+
+**Get All Categories**
+
+Method: GET
+Endpoint: /categories
+Description: Retrieves all categories from the database.
+Input: None
+
+**Create Category**
+
+Method: POST
+Endpoint: /categories
+Description: Creates a new category in the database.
+Input: String:
+name (string): The name of the category.
+
+
+**Get Category by ID**
+
+Method: GET
+Endpoint: /categories/:id
+Description: Retrieves a specific category by its ID.
+Input: none.
+
+**Update Category by ID**
+
+Method: POST
+Endpoint: /categories/:id
+Description: Updates a category with the specified ID.
+Input:
+name (string): The updated name of the category.
+
+**Delete Category by ID**
+
+Method: DELETE
+Endpoint: /categories/:id
+Description: Deletes a category with the specified ID.
+Input: Path parameter id (integer): The ID of the category to delete.
+Products:
+
+
+**Get All Products**
+
+Method: GET
+Endpoint: /products
+Description: Retrieves all products from the database.
+Input: None
+
+**Create Product**
+
+Method: POST
+Endpoint: /products
+Description: Creates a new product in the database.
+Input: string:
+name (string): The name of the product.
+
+
+**get Product by id**
+Method: GET
+Endpoint: /products/:id
+Description: Retrieves a specific product by its ID.
+Input: Path parameter id (integer): The ID of the product to retrieve.
+
+
+**Update Product by ID**
+
+Method: POST
+Endpoint: /products/:id
+Description: Updates a product with the specified ID.
+Input: updated name
+name (string): The updated name of the product.
+categoryId (integer): The updated ID of the category to which the product belongs.
+
+
+**Delete Product by ID**
+
+Method: DELETE
+Endpoint: /products/:id
+Description: Deletes a product with the specified ID.
+
+
 **Categories:**
 
 GET /categories: Get all categories
