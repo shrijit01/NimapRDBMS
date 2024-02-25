@@ -8,33 +8,25 @@ project/
 ├── controllers/          # Contains controller logic
 │   ├── category_controller.js
 │   └── product_controller.js
+|   └── home_controller.js
 │
 ├── models/               # Contains database models
-│   ├── category.js
-│   └── product.js
+│   ├── db.js
+│  
 │
 ├── routes/               # Contains route definitions
-│   ├── category_routes.js
-│   └── product_routes.js
+│   ├── category.js
+│   └── product.js
+|   └── index.js
 │
 ├── views/                # Contains view templates
-│   ├── category/
-│   │   ├── category_list.ejs
-│   │   ├── category_form.ejs
-│   │   └── category_edit.ejs
-│   └── product/
-│       ├── product_list.ejs
-│       ├── product_form.ejs
-│       └── product_edit.ejs
-│
-├── public/               # Contains static files (CSS, JS)
-│   ├── css/
-│   └── js/
-│
-├── config/               # Contains configuration files
-│   └── db.js             # Database configuration
-│
-├── app.js                # Main application file
+│     ├── category.ejs
+│     ├── editCategory.ejs
+│     ├── index.ejs
+│     ├── product.ejs
+│     └── editProduct.ejs
+|
+├── index.js                # Main application file
 ├── package.json          # npm package file
 └── README.md             # Project README
 
